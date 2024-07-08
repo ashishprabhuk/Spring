@@ -92,7 +92,7 @@ managing resources (like opening/closing database connections) or
 
 ---
 
-## Annotations
+# Annotations
  
 ##### @Lazy
 - Can be used almost everywhere `@Component` qnd `@Bean` are used 
