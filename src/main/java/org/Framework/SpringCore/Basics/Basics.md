@@ -92,7 +92,7 @@ allowing a program to follow the dependency inversion principle.
 
 ---
 
-## **Annotations**
+# **Annotations**
 #### **@Configuration**
 - Indicates that this class contains one or more bean methods annotated with `@Bean` 
 producing beans manageable by Spring.
