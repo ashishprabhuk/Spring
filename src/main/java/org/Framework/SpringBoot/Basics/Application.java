@@ -1,4 +1,4 @@
-package org.Framework.SpringCore;
+package org.Framework.SpringBoot.Basics;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
