@@ -1,17 +1,18 @@
-package org.Framework.SpringBoot.Basics;
+package org.Framework.SpringBoot.Basics.EmployeeMS;
 
-public class User {
+public class Employee {
     private long id;
     private String name;
     private int age;
-    private String gender;
+    private String email;
+    private String role;
 
-    public User(long id, String name, int age, String gender) {
-        super();
+    public Employee(long id, String name, int age, String email, String role) {
         this.id = id;
         this.name = name;
         this.age = age;
-        this.gender = gender;
+        this.email = email;
+        this.role = role;
     }
 
     public long getId() {
@@ -26,17 +27,22 @@ public class User {
         return age;
     }
 
-    public String getGender() {
-        return gender;
+    public String getEmail() {
+        return email;
+    }
+
+    public String getRole() {
+        return role;
     }
 
     @Override
     public String toString() {
-        return "User {" +
+        return "Employee {" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", gender='" + gender + '\'' +
+                ", email='" + email + '\'' +
+                ", role='" + role + '\'' +
                 '}';
     }
 }

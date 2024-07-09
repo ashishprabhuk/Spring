@@ -1,4 +1,4 @@
-package org.Framework.SpringBoot.Basics;
+package org.Framework.SpringBoot.Basics.EmployeeMS;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
