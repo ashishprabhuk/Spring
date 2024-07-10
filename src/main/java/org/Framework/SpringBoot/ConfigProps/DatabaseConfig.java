@@ -1,4 +1,4 @@
-package org.Framework.SpringBoot.Basics.ConfigProps;
+package org.Framework.SpringBoot.ConfigProps;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

@@ -1,6 +1,5 @@
-package org.Framework.SpringBoot.Basics.EmployeeMS.Controller;
+package org.Framework.SpringBoot.SimpleApplication;
 
-import org.Framework.SpringBoot.Basics.EmployeeMS.Employee;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,6 +8,7 @@ import java.util.List;
 
 @RestController
 public class EmployeeController {
+
     @RequestMapping("/employee")
     public List<Employee> retrieveAllEmployees(){
         return Arrays.asList(

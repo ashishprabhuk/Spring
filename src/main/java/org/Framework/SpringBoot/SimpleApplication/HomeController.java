@@ -1,4 +1,4 @@
-package org.Framework.SpringBoot.Basics.EmployeeMS.Controller;
+package org.Framework.SpringBoot.SimpleApplication;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

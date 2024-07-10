@@ -1,4 +1,4 @@
-package org.Framework.SpringBoot.Basics.EmployeeMS;
+package org.Framework.SpringBoot.SimpleApplication;
 
 public class Employee {
     private long id;
