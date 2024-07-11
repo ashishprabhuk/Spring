@@ -1,7 +1,13 @@
 package org.Framework.SpringData;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Employee {
-    private long id;
+
+    @Id
+    private Long id;
     private String name;
     private int age;
     private String email;

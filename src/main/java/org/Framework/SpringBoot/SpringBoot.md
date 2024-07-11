@@ -51,9 +51,9 @@ based on the libraries you include (jar dependencies), saving you time writing c
 - Spring Boot automatically binds configuration values from properties files (e.g., `application.properties`) 
 or environment variables to the corresponding fields in your Object. 
 - Fields and property names need to match.
-- `database.url=jdbc:mysql://localhost:3306/devDB`
-- `database.username=devUser`
-- `database.password=devPass`
+- `spring.datasource.url=jdbc:mysql://localhost:3306/devDB`
+- `spring.datasource.username=devUser`
+- `spring.datasource.password=devPass`
 
 ### Embedded Servers
 - Embedded servers in Spring, particularly Spring Boot, are web servers that are embedded

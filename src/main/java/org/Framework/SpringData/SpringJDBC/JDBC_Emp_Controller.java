@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/employees")
-public class EmployeeController {
+public class JDBC_Emp_Controller {
 
     @Autowired
     private JDBC_Repo repo;
@@ -18,11 +18,11 @@ public class EmployeeController {
 
     @DeleteMapping("/{id}")
     public void insertEmployee(@PathVariable long id){
-        repo.deleteByID(id);
+        repo.deleteById(id);
     }
 
     @GetMapping("/{id}")
     public void getEmployee(@PathVariable long id){
-        repo.findByID(id);
+        repo.findById(id);
     }
 }

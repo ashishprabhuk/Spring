@@ -1,12 +1,12 @@
-package org.Framework.SpringData.SpringJDBC;
+package org.Framework.SpringData;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class App {
+public class SpringDataApp {
     public static void main(String[] args) {
-        SpringApplication.run(App.class, args);
-        System.out.println("Spring JDBC App running...");
+        SpringApplication.run(SpringDataApp.class, args);
+        System.out.println("JDBC or JPA App running...");
     }
 }

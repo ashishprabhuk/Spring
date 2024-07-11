@@ -32,11 +32,11 @@ public class JDBC_Repo {
         jdbc.update(INSERT_QUERY, employee.getId(), employee.getName(), employee.getAge(), employee.getEmail(), employee.getRole());
     }
 
-    public void deleteByID(long id){
+    public void deleteById(Long id){
         jdbc.update(DELETE_QUERY, id);
     }
 
-    public Employee findByID(long id){
+    public Employee findById(Long id){
         return jdbc.queryForObject(SELECT_QUERY, new BeanPropertyRowMapper<>(Employee.class), id);
     }
 }
