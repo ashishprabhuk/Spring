@@ -10,13 +10,13 @@ import org.springframework.stereotype.Component;
 public class Employee_CLR implements CommandLineRunner {
 
 //    @Autowired
-//    private JDBC_Repo repo;
+//    private JDBC_Repo repo; //JDBC reference
 
 //    @Autowired
-//    private EM_JPA_Repo repo;
+//    private EM_JPA_Repo repo;  // Entity Manager JPA reference
 
     @Autowired
-    private JPA_Repo repo;
+    private JPA_Repo repo; // Spring JPA reference
 
     @Override
     public void run(String... args) throws Exception {
@@ -31,7 +31,7 @@ public class Employee_CLR implements CommandLineRunner {
         System.out.println(repo.findById(2l));
         System.out.println(repo.findById(4l));
 
-        System.out.println(repo.findByName("Ashish"));
+        System.out.println(repo.findByName("Ashish")); // custom query methods
         System.out.println(repo.findByRole("Student"));
     }
 }
